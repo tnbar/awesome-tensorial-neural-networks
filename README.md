@@ -1,7 +1,7 @@
 # Awesome-tensorial-neural-networks [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 An survey of tensorial neural networks (TNNs) in
-- [Network compression via TNNs](#Network compression via TNNs)
+- Network compression via TNNs
 - Information fusion via TNNs
 - Quantum Circuit Simulation via TNNs
 - Training Strategy of TNNs
