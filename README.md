@@ -1,4 +1,4 @@
-# Awesome-tensorial-neural-networks [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Tensorial Neural Networks [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 An survey of tensorial neural networks (TNNs) in
 - Network compression via TNNs
