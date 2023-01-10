@@ -145,14 +145,49 @@ An survey of tensorial neural networks (TNNs) in
 
 ### Hardware Training
 
-
+| Paper                                                        | Remarks                                                      | Conference/Journal                                           | Year |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| [Hardware Acceleration in Large-Scale Tensor Decomposition for Neural Network Compression](https://ieeexplore.ieee.org/abstract/document/9859440/?casa_token=-GX0RyAssGoAAAAA:7ZW1LAw5_oO14VD13-IRCLGFClH8xeKC8PTzbHFPHyerGWmjmqtNn2Tq4YTH-7m8yE20Oad1YQ) | Proposing an energy-efficient hardware accelerator that implements randomized CPD in large-scale tensors for neural network compression. | MWSCAS                                                       | 2022 |
+| [Hardware-Enabled Efficient Data Processing with Tensor-Train Decomposition](https://ieeexplore.ieee.org/abstract/document/9351565/?casa_token=BZLiwk-m9L8AAAAA:1lQdMChb-Y3-D0s_n2GvMsZxpXv0wGsiWSIxbI1fQ8jjhR6YXzeJ2vAw6R0FwYG-scqK9LP3LA) | Proposing an algorithm-hardware co-design with customized architecture, namely, TTD Engine to accelerate TTD | IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems | 2021 |
+| [TIE: Energy-efficient tensor train-based inference engine for deep neural network](https://dl.acm.org/doi/abs/10.1145/3307650.3322258?casa_token=WzxcffHLph8AAAAA:7n3ABF-ZbVwK9iyyri5nQMdlGzDPega8kGYG0Sde8L18g49X-umS9XW_RORYaxqCIC_AAPFC9ov9KQ) | Developing a computation-efficient inference scheme for TT-format DNN. | ISCA                                                         | 2019 |
+| [LTNN: An energy-efficient machine learning accelerator on 3D CMOS-RRAM for layer-wise tensorized neural network](https://ieeexplore.ieee.org/abstract/document/8226058/?casa_token=275Xgo_oYxYAAAAA:qMupRjne2MLHWwwZrQbDEK0U1dXYJC7_omIrO8EvZulYhXBmWJst8bR7_K1XdvwBSl-PutrJBA) | Mapping TNNs  to a 3D CMOS-RRAM based accelerator with significant bandwidth boosting from vertical I/O connections. | SOCC                                                         | 2017 |
 
 ## Toolboxes
 
 ### Basic Tensor Operation
 
+| Name                                                         | Remarks                                                      | Backends                                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [Tensorly](http://tensorly.org/stable/index.html)            | TensorLy is open-source, actively maintained and easily extensible. TensorLy provides all the utilities to easily use tensor methods from core tensor operations and tensor algebra to tensor decomposition and regression. | Python (NumPy, PyTorch, TensorFlow, JAX, Apache MXNet and CuPy) |
+| [TensorNetwork](https://github.com/google/TensorNetwork)     | TensorNetwork is an open source library for implementing tensor network algorithms. | Python (TensorFlow, JAX, PyTorch, and Numpy)                 |
+| [Tensortools](https://github.com/neurostatslab/tensortools)  | TensorTools is a bare bones Python package for fitting and visualizing canonical polyadic (CP) tensor decompositions of higher-order data arrays. | Python (NumPy)                                               |
+| [TnTorch](https://github.com/rballester/tntorch)             | TnTorch is a PyTorch-powered library for tensor modeling and learning that features transparent support for the the tensor train (TT) model, CANDECOMP/PARAFAC (CP), the Tucker model, and more. | Python (Pytorch)                                             |
+| [TorchMPS](https://github.com/jemisjoky/TorchMPS)            | TorchMPS is a framework for working with matrix product state (also known as MPS or tensor train) models within Pytorch. | Python (Pytorch)                                             |
+| [T3F](https://github.com/Bihaqo/t3f)                         | T3F supports GPU execution, batch processing, automatic differentiation, and versatile functionality for the Riemannian optimization framework. | Python (Tensorflow)                                          |
+| [TensorD](https://github.com/Large-Scale-Tensor-Decomposition/tensorD) | TensorD provides basic decomposition methods, such as Tucker decomposition and CANDECOMP/PARAFAC (CP) decomposition, as well as new decomposition methods developed recently, for example, Pairwise Interaction Tensor Decomposition. | Python (Tensorflow)                                          |
+| [ITensor](https://itensor.org/)                              | ITensor is a system for programming tensor network calculations with an interface modeled on tensor diagram notation, which allows users to focus on the connectivity of a tensor network without manually bookkeeping tensor indices. | C++/Julia                                                    |
+| [TenDeC++](https://github.com/XiaoYangLiu-FinRL/TensorLet_in_C_C_PlusPlus) | TenDeC++ implements four popular tensor decomposition methods, CANDECOMP/PARAFAC (CP) decomposition, Tucker decomposition, t-SVD, and Tensor-Train (TT) decomposition. | C++                                                          |
+| [TensorToolbox](https://www.tensortoolbox.org/)              | Tensor Toolbox provides a suite of tools for working with multidimensional or N-way arrays. | Matlab                                                       |
+| [TT-Toolbox](https://github.com/oseledets/TT-Toolbox)        | he TT-Toolbox is a MATLAB implementation of basic operations with tensors in TT-format. | Matlab                                                       |
+| [OSTD](https://github.com/andrewssobral/ostd)                | Online Stochastic Tensor Decomposition for Background Subtraction in Multispectral Video Sequences. | Matlab                                                       |
+| [Scikit-TT](https://github.com/PGelss/scikit_tt)             | Scikit-TT provides a powerful TT class as well as different modules comprising solvers for algebraic problems, the automatic construction of tensor trains, and data-driven methods. | Python                                                       |
+
 ### Deep Model Implementation
+
+| Name                                              | Remarks                                                      | Backends |
+| ------------------------------------------------- | ------------------------------------------------------------ | -------- |
+| [Tensorly-Torch](https://tensorly.org/torch/dev/) | TensorLy-Torch is a PyTorch only library that builds on top of [TensorLy](http://tensorly.org/dev) and provides out-of-the-box tensor layers. It comes with all batteries included and tries to make it as easy as possible to use tensor methods within your deep networks. | Pytorch  |
+| [TedNet](https://github.com/tnbar/tednet)         | TedNet implements 5 kinds of tensor decomposition (i.e., CANDECOMP/PARAFAC (CP), Block-Term Tucker (BTT), Tucker-2, Tensor Train (TT) and Tensor Ring (TR) on traditional deep neural layers, | Pytorch  |
 
 ### Quantum Tensor Simulation
 
-## 
+| Name                                                       | Remarks                                                      | Backends  |
+| ---------------------------------------------------------- | ------------------------------------------------------------ | --------- |
+| [TensorToolbox](https://www.tensortoolbox.org/)            | Tensor Toolbox provides a suite of tools for working with multidimensional or N-way arrays. | Matlab    |
+| [ITensor](https://itensor.org/)                            | ITensor is a system for programming tensor network calculations with an interface modeled on tensor diagram notation, which allows users to focus on the connectivity of a tensor network without manually bookkeeping tensor indices. | C++/Julia |
+| [Yao](http://quantum-journal.org/papers/q-2020-10-11-341/) | Yao is an extensible, efficient open-source framework for quantum algorithm design. | Python    |
+| [lambeq](https://github.com/CQCL/lambeq)                   | Lambeq is a toolkit for quantum natural language processing. | Python    |
+| [TeD-Q](https://github.com/amore-upf/ted-q)                | TeD-Q provides an additional layer of annotations to the existing dataset. | Python    |
+
+### 
+
