@@ -1,42 +1,13 @@
 # Awesome-tensorial-neural-networks [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 An survey of tensorial neural networks (TNNs) in
-- Training Strategy
 - Network compression via TNNs
 - Information fusion via TNNs
 - Quantum Circuit Simulation via TNNs
+- Training Strategy
 - Toolboxes of TNNs
 
-## Training Strategy
 
-### Stable Training
-
-| Paper                                                        | Remarks                                                      | Conference/Journal  | Year |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------- | ---- |
-| [A Unified Weight Initialization Paradigm for Tensorial Convolutional Neural Networks](https://proceedings.mlr.press/v162/pan22b.html) | Proposing a universal weight initialization paradigm, which generalizes Xavier and Kaiming methods and can be widely applicable to arbitrary TCNNs | ICML                | 2022 |
-| [Tensor methods in computer vision and deep learning](https://ieeexplore.ieee.org/abstract/document/9420085/?casa_token=sxgy4gD8rAEAAAAA:xJs6F0f9CwbkUSvpiWlIhE5GKu_01eOs-XmSH07N5zc2YHyotzMryxnpm1D0egcpCfE3ZfhnuQ) | Proposing a mixed-precision strategy to trade off time cost and numerical stability. | Proceedings of IEEE | 2021 |
-
-### Rank Selection
-
-| Paper                                                        | Remarks                                                      | Conference/Journal            | Year |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------- | ---- |
-| [Heuristic rank selection with progressively searching tensor ring network](https://link.springer.com/article/10.1007/s40747-021-00308-x) | Proposing a novel progressive genetic algorithm named progressively searching tensor ring network search (PSTRN), which has the ability to find optimal rank precisely and efficiently. | Complex & Intelligent Systems | 2021 |
-| [Bayesian tensorized neural networks with automatic rank selection](https://www.sciencedirect.com/science/article/pii/S0925231221006950?casa_token=giYJF1h4jC8AAAAA:aavT0_ZN_pmPnDqbsJM6K1MYUiLbxI0oWXPyODLa3wyzXUUJWiwhNQ7alu2Cju201QhpRBk0gg) | Proposing approaches for posterior density calculation and maximum a posteriori (MAP) estimation for the end-to-end training of our tensorized neural network. | Neurocomputing                | 2021 |
-| [Towards efficient tensor decomposition-based dnn model compression with optimization framework](http://openaccess.thecvf.com/content/CVPR2021/html/Yin_Towards_Efficient_Tensor_Decomposition-Based_DNN_Model_Compression_With_Optimization_Framework_CVPR_2021_paper.html) | Proposing a systematic framework for tensor decomposition-based model compression using Alternating Direction Method of Multipliers(ADMM). | CVPR                          | 2021 |
-| [A novel rank selection scheme in tensor ring decomposition based on reinforcement learning for deep neural networks](https://ieeexplore.ieee.org/abstract/document/9053292/?casa_token=h_XCI5YFy6EAAAAA:QDydsaV3VIhlmQzyO_MbHg269K_qy0lwObfZC7bbnJ2YmqBN8DgUQ4tlO2aTx8zfqMqR4guLOg) | Proposing a novel rank selection scheme, which is inspired by reinforcement learning, to automatically select ranks in recently studied tensor ring decomposition in each convolutional layer. | ICASSP                        | 2020 |
-| [Compression of deep convolutional neural networks for fast and low power mobile applications](https://arxiv.org/abs/1511.06530) | Deriving an approximate rank by employing the Bayesian matrix factorization (BMF) [188] to an unfolding weight tensor. | ICLR                          | 2016 |
-| [Bayesian CP factorization of incomplete tensors with automatic rank determination](https://ieeexplore.ieee.org/abstract/document/7010937/?casa_token=kGYY-jf-OwYAAAAA:F6_6WuCgR9HxtAtYVIXJ2HfnJuoCcvFdVnccJK1ZU73J23EFgaBfh1jKrC5o8DGfryO9LHUCTA) | Formulating CP factorization using a hierarchical probabilistic model and employ a fully Bayesian treatment. | TPAMI                         | 2015 |
-
-### Hardware Training
-
-| Paper                                                        | Remarks                                                      | Conference/Journal                                           | Year |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
-| [Hardware Acceleration in Large-Scale Tensor Decomposition for Neural Network Compression](https://ieeexplore.ieee.org/abstract/document/9859440/?casa_token=-GX0RyAssGoAAAAA:7ZW1LAw5_oO14VD13-IRCLGFClH8xeKC8PTzbHFPHyerGWmjmqtNn2Tq4YTH-7m8yE20Oad1YQ) | Proposing an energy-efficient hardware accelerator that implements randomized CPD in large-scale tensors for neural network compression. | MWSCAS                                                       | 2022 |
-| [Hardware-Enabled Efficient Data Processing with Tensor-Train Decomposition](https://ieeexplore.ieee.org/abstract/document/9351565/?casa_token=BZLiwk-m9L8AAAAA:1lQdMChb-Y3-D0s_n2GvMsZxpXv0wGsiWSIxbI1fQ8jjhR6YXzeJ2vAw6R0FwYG-scqK9LP3LA) | Proposing an algorithm-hardware co-design with customized architecture, namely, TTD Engine to accelerate TTD | IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems | 2021 |
-| [TIE: Energy-efficient tensor train-based inference engine for deep neural network](https://dl.acm.org/doi/abs/10.1145/3307650.3322258?casa_token=WzxcffHLph8AAAAA:7n3ABF-ZbVwK9iyyri5nQMdlGzDPega8kGYG0Sde8L18g49X-umS9XW_RORYaxqCIC_AAPFC9ov9KQ) | Developing a computation-efficient inference scheme for TT-format DNN. | ISCA                                                         | 2019 |
-| [LTNN: An energy-efficient machine learning accelerator on 3D CMOS-RRAM for layer-wise tensorized neural network](https://ieeexplore.ieee.org/abstract/document/8226058/?casa_token=275Xgo_oYxYAAAAA:qMupRjne2MLHWwwZrQbDEK0U1dXYJC7_omIrO8EvZulYhXBmWJst8bR7_K1XdvwBSl-PutrJBA) | Mapping TNNs  to a 3D CMOS-RRAM based accelerator with significant bandwidth boosting from vertical I/O connections. | SOCC                                                         | 2017 |
-
-## 
 
 ## Network compression via TNNs
 
@@ -153,6 +124,39 @@ An survey of tensorial neural networks (TNNs) in
 | [Deep Learning and Quantum Entanglement: Fundamental Connections with Implications to Network Design](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DmzoCRMAAAAJ&citation_for_view=DmzoCRMAAAAJ:zYLM7Y9cAGgC) | Showing an equivalence between the function realized by a deep convolutional arithmetic circuit (ConvAC) and a quantum many-body wave function | ICLR               | 2018 |
 | [On the Expressive Power of Deep Learning: A Tensor Analysis](https://arxiv.org/abs/1509.05009) | Showing that a shallow network corresponds to CP (rank-1) decomposition, whereas a deep network corresponds to Hierarchical Tucker decomposition. | COLT               | 2016 |
 | [Convolutional Rectifier Networks as Generalized Tensor Decompositions](https://proceedings.mlr.press/v48/cohenb16.html) | Describing a construction based on generalized tensor decompositions, that transforms convolutional arithmetic circuits into convolutional rectifier networks. | ICML               | 2016 |
+
+## Training Strategy
+
+### Stable Training
+
+| Paper                                                        | Remarks                                                      | Conference/Journal  | Year |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------- | ---- |
+| [A Unified Weight Initialization Paradigm for Tensorial Convolutional Neural Networks](https://proceedings.mlr.press/v162/pan22b.html) | Proposing a universal weight initialization paradigm, which generalizes Xavier and Kaiming methods and can be widely applicable to arbitrary TCNNs | ICML                | 2022 |
+| [Tensor methods in computer vision and deep learning](https://ieeexplore.ieee.org/abstract/document/9420085/?casa_token=sxgy4gD8rAEAAAAA:xJs6F0f9CwbkUSvpiWlIhE5GKu_01eOs-XmSH07N5zc2YHyotzMryxnpm1D0egcpCfE3ZfhnuQ) | Proposing a mixed-precision strategy to trade off time cost and numerical stability. | Proceedings of IEEE | 2021 |
+
+### Rank Selection
+
+| Paper                                                        | Remarks                                                      | Conference/Journal            | Year |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------- | ---- |
+| [Heuristic rank selection with progressively searching tensor ring network](https://link.springer.com/article/10.1007/s40747-021-00308-x) | Proposing a novel progressive genetic algorithm named progressively searching tensor ring network search (PSTRN), which has the ability to find optimal rank precisely and efficiently. | Complex & Intelligent Systems | 2021 |
+| [Bayesian tensorized neural networks with automatic rank selection](https://www.sciencedirect.com/science/article/pii/S0925231221006950?casa_token=giYJF1h4jC8AAAAA:aavT0_ZN_pmPnDqbsJM6K1MYUiLbxI0oWXPyODLa3wyzXUUJWiwhNQ7alu2Cju201QhpRBk0gg) | Proposing approaches for posterior density calculation and maximum a posteriori (MAP) estimation for the end-to-end training of our tensorized neural network. | Neurocomputing                | 2021 |
+| [Towards efficient tensor decomposition-based dnn model compression with optimization framework](http://openaccess.thecvf.com/content/CVPR2021/html/Yin_Towards_Efficient_Tensor_Decomposition-Based_DNN_Model_Compression_With_Optimization_Framework_CVPR_2021_paper.html) | Proposing a systematic framework for tensor decomposition-based model compression using Alternating Direction Method of Multipliers(ADMM). | CVPR                          | 2021 |
+| [A novel rank selection scheme in tensor ring decomposition based on reinforcement learning for deep neural networks](https://ieeexplore.ieee.org/abstract/document/9053292/?casa_token=h_XCI5YFy6EAAAAA:QDydsaV3VIhlmQzyO_MbHg269K_qy0lwObfZC7bbnJ2YmqBN8DgUQ4tlO2aTx8zfqMqR4guLOg) | Proposing a novel rank selection scheme, which is inspired by reinforcement learning, to automatically select ranks in recently studied tensor ring decomposition in each convolutional layer. | ICASSP                        | 2020 |
+| [Compression of deep convolutional neural networks for fast and low power mobile applications](https://arxiv.org/abs/1511.06530) | Deriving an approximate rank by employing the Bayesian matrix factorization (BMF) [188] to an unfolding weight tensor. | ICLR                          | 2016 |
+| [Bayesian CP factorization of incomplete tensors with automatic rank determination](https://ieeexplore.ieee.org/abstract/document/7010937/?casa_token=kGYY-jf-OwYAAAAA:F6_6WuCgR9HxtAtYVIXJ2HfnJuoCcvFdVnccJK1ZU73J23EFgaBfh1jKrC5o8DGfryO9LHUCTA) | Formulating CP factorization using a hierarchical probabilistic model and employ a fully Bayesian treatment. | TPAMI                         | 2015 |
+
+### Hardware Training
+
+| Paper                                                        | Remarks                                                      | Conference/Journal                                           | Year |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| [Hardware Acceleration in Large-Scale Tensor Decomposition for Neural Network Compression](https://ieeexplore.ieee.org/abstract/document/9859440/?casa_token=-GX0RyAssGoAAAAA:7ZW1LAw5_oO14VD13-IRCLGFClH8xeKC8PTzbHFPHyerGWmjmqtNn2Tq4YTH-7m8yE20Oad1YQ) | Proposing an energy-efficient hardware accelerator that implements randomized CPD in large-scale tensors for neural network compression. | MWSCAS                                                       | 2022 |
+| [Hardware-Enabled Efficient Data Processing with Tensor-Train Decomposition](https://ieeexplore.ieee.org/abstract/document/9351565/?casa_token=BZLiwk-m9L8AAAAA:1lQdMChb-Y3-D0s_n2GvMsZxpXv0wGsiWSIxbI1fQ8jjhR6YXzeJ2vAw6R0FwYG-scqK9LP3LA) | Proposing an algorithm-hardware co-design with customized architecture, namely, TTD Engine to accelerate TTD | IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems | 2021 |
+| [TIE: Energy-efficient tensor train-based inference engine for deep neural network](https://dl.acm.org/doi/abs/10.1145/3307650.3322258?casa_token=WzxcffHLph8AAAAA:7n3ABF-ZbVwK9iyyri5nQMdlGzDPega8kGYG0Sde8L18g49X-umS9XW_RORYaxqCIC_AAPFC9ov9KQ) | Developing a computation-efficient inference scheme for TT-format DNN. | ISCA                                                         | 2019 |
+| [LTNN: An energy-efficient machine learning accelerator on 3D CMOS-RRAM for layer-wise tensorized neural network](https://ieeexplore.ieee.org/abstract/document/8226058/?casa_token=275Xgo_oYxYAAAAA:qMupRjne2MLHWwwZrQbDEK0U1dXYJC7_omIrO8EvZulYhXBmWJst8bR7_K1XdvwBSl-PutrJBA) | Mapping TNNs  to a 3D CMOS-RRAM based accelerator with significant bandwidth boosting from vertical I/O connections. | SOCC                                                         | 2017 |
+
+## 
+
+
 
 ## Toolboxes
 
