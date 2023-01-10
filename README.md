@@ -1,1 +1,0 @@
-# awesome-tensorial-neural-networks
