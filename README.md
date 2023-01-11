@@ -4,7 +4,7 @@ An survey of tensorial neural networks (TNNs) in
 - Network compression via TNNs
 - Information fusion via TNNs
 - Quantum Circuit Simulation via TNNs
-- Training Strategy
+- Training Strategy of TNNs
 - Toolboxes of TNNs
 
 
