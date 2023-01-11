@@ -183,8 +183,8 @@ An survey of tensorial neural networks (TNNs) in
 
 | Name                                              | Remarks                                                      | Backends |
 | ------------------------------------------------- | ------------------------------------------------------------ | -------- |
-| [Tensorly-Torch](https://tensorly.org/torch/dev/) | TensorLy-Torch is a PyTorch only library that builds on top of [TensorLy](http://tensorly.org/dev) and provides out-of-the-box tensor layers. It comes with all batteries included and tries to make it as easy as possible to use tensor methods within your deep networks. | Pytorch  |
-| [TedNet](https://github.com/tnbar/tednet)         | TedNet implements 5 kinds of tensor decomposition (i.e., CANDECOMP/PARAFAC (CP), Block-Term Tucker (BTT), Tucker-2, Tensor Train (TT) and Tensor Ring (TR) on traditional deep neural layers. | Pytorch  |
+| [Tensorly-Torch](https://tensorly.org/torch/dev/) | TensorLy-Torch is a PyTorch only library that builds on top of [TensorLy](http://tensorly.org/dev) and provides out-of-the-box tensor layers. It comes with all batteries included and tries to make it as easy as possible to use tensor methods within your deep networks. | Python (Pytorch)  |
+| [TedNet](https://github.com/tnbar/tednet)         | TedNet implements 5 kinds of tensor decomposition (i.e., CANDECOMP/PARAFAC (CP), Block-Term Tucker (BTT), Tucker-2, Tensor Train (TT) and Tensor Ring (TR) on traditional deep neural layers. | Python (Pytorch)  |
 
 ### Quantum Tensor Simulation
 
