@@ -9,7 +9,14 @@ An survey of tensorial neural networks (TNNs) in
 - Toolboxes of TNNs
 
 
-This is consistent with our survey paper. For more detail, you can refer to https://arxiv.org/pdf/2302.09019.pdf .
+This is consistent with our survey paper. For more detail, you can refer to https://arxiv.org/pdf/2302.09019.pdf. And if you find this link or our paper useful, you can cite our paper in the following form:
+@article{mao2023tensorsurvey,
+  title={Tensor Networks Meet Neural Networks: A Survey},
+  author={Maolin Wang, Yu Pan, Xiangli Yang, Guangxi Li, Zenglin Xu},
+  journal={arXiv preprint arXiv:2302.09019},
+  year={2023}
+}
+
 
 ## Network compression via TNNs
 
