@@ -1,5 +1,6 @@
 # Awesome Tensorial Neural Networks [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+
 An survey of tensorial neural networks (TNNs) in
 - Network compression via TNNs
 - Information fusion via TNNs
@@ -8,6 +9,7 @@ An survey of tensorial neural networks (TNNs) in
 - Toolboxes of TNNs
 
 
+This is consistent with our survey paper. For more detail, you can refer to https://arxiv.org/pdf/2302.09019.pdf .
 
 ## Network compression via TNNs
 
