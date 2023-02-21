@@ -9,7 +9,7 @@ An survey of tensorial neural networks (TNNs) in
 - Toolboxes of TNNs
 
 
-This is consistent with our survey paper. For more detail, you can refer to https://arxiv.org/pdf/2302.09019.pdf. And if you find this link or our paper useful, you can cite our paper in the following form:
+This is consistent with our survey paper. Please see https://arxiv.org/abs/2302.09019 for more details. And if you find this work helpful, you can cite this collection in the following form:
 
 
     @article{wang2023tensorsurvey,
