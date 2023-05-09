@@ -12,11 +12,18 @@ An survey of tensorial neural networks (TNNs) in
 This repository is consistent with our survey paper `Tensor Networks Meet Neural Networks: A Survey`. Please see https://arxiv.org/abs/2302.09019 for more details. And if you find this work helpful, you can cite this collection in the following form:
 
 
-    @article{wang2023tensorsurvey,
-       title={Tensor Networks Meet Neural Networks: A Survey},  
-       author={Maolin Wang, Yu Pan, Xiangli Yang, Guangxi Li, Zenglin Xu},
-       journal={arXiv preprint arXiv:2302.09019},
-       year={2023}}
+    @article{DBLP:journals/corr/abs-2302-09019,
+      author       = {Maolin Wang and
+                      Yu Pan and
+                      Xiangli Yang and
+                      Guangxi Li and
+                      Zenglin Xu and
+                      Andrzej Cichocki},
+      title        = {Tensor Networks Meet Neural Networks: {A} Survey and Future Perspectives},
+      journal      = {CoRR},
+      volume       = {abs/2302.09019},
+      year         = {2023}
+    }
 
 
 ## Network compression via TNNs
