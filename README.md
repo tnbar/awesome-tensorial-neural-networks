@@ -9,7 +9,7 @@ An survey of tensorial neural networks (TNNs) in
 - Toolboxes of TNNs
 
 
-This repository is consistent with our survey paper `Tensor Networks Meet Neural Networks: A Survey and Future Perspectives`. Please see https://arxiv.org/abs/2302.09019 for more details. And if you find this work helpful, you can cite this collection in the following form:
+This repository is consistent with our survey paper `Tensor Networks Meet Neural Networks: A Survey and Future Perspectives`. Please see https://arxiv.org/abs/2302.09019 for more details. And if you find this work helpful, we would appreciate it if you could cite this collection in the following form:
 
 
     @article{DBLP:journals/corr/abs-2302-09019,
