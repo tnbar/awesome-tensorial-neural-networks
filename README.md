@@ -15,9 +15,9 @@ This repository is consistent with our survey paper `Tensor Networks Meet Neural
     @article{DBLP:journals/corr/abs-2302-09019,
       author       = {Maolin Wang and
                       Yu Pan and
+                      Zenglin Xu and
                       Xiangli Yang and
                       Guangxi Li and
-                      Zenglin Xu and
                       Andrzej Cichocki},
       title        = {Tensor Networks Meet Neural Networks: {A} Survey and Future Perspectives},
       journal      = {CoRR},
