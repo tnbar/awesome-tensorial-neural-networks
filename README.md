@@ -70,6 +70,7 @@ This repository is consistent with our survey paper `Tensor Networks Meet Neural
 
 | Paper                                                        | Remarks                                                      | Conference/Journal | Year |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------ | ---- |
+| Pan et al."Reusing Pretrained Models by Multi-linear Operators for Efficient Training". [[link](https://arxiv.org/pdf/2310.10699.pdf)] | Utilizing tensor ring matrix product operator (TR-MPO) to grow a small pretrained model to a large counterpart for efficient training. | NeurIPS     | 2023 |
 | Vasilescu et al."Causal Deep Learning: Causal Capsules and Tensor Transformers". [[link](https://arxiv.org/pdf/2301.00314.pdf)] | Forward causal questions are addressed with a neural network architecture composed of causal capsules and a tucker format tensor transformer. | Arxiv preprint     | 2023 |
 | Liu et al. "Tuformer: Data-driven Design of Transformers for Improved Generalization or Efficiency". [[link](https://openreview.net/forum?id=V0A5g83gdQ_)] | Proposing a novel design by allowing data-driven weights across heads via low rank tensor diagrams. | ICLR               | 2022 |
 | Ren et al. "Exploring extreme parameter compression for pre-trained language models". [[link](https://arxiv.org/abs/2205.10036)] | Proposing to use Tucker formats to improve the effectiveness and efficiency during compression of Transformers. | ICLR               | 2022 |
